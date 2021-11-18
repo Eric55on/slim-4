@@ -1,0 +1,30 @@
+{
+    "require": {
+        "fig/http-message-util": "^1.1",
+        "guzzlehttp/psr7": "^2",
+        "illuminate/database": "^8.69",
+        "illuminate/events": "^8.69",
+        "laminas/laminas-diactoros": "^2.8",
+        "lulco/phoenix": "^1.10",
+        "monolog/monolog": "^2.3",
+        "nesbot/carbon": "^2.54",
+        "php-di/php-di": "^6.3",
+        "psr/log": "^1.0",
+        "rakit/validation": "^1.4",
+        "selective/basepath": "^2.1",
+        "slim/php-view": "^3.1",
+        "slim/psr7": "^1.5",
+        "slim/slim": "^4.9",
+        "symfony/polyfill-uuid": "^1.23",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    }     
+}
